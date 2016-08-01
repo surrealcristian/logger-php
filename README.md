@@ -5,23 +5,25 @@ Simple and fast file logger.
 
 ## API
 
-### `public Logger::__construct ( string $name, string $file, string $level )`
+```php
+public Logger::__construct ( string $name, string $file, string $level )
 
-### `public void Logger::debug ( string $message [, array $context ] )`
+public void Logger::debug ( string $message [, array $context ] )
 
-### `public void Logger::info ( string $message [, array $context ] )`
+public void Logger::info ( string $message [, array $context ] )
 
-### `public void Logger::notice ( string $message [, array $context ] )`
+public void Logger::notice ( string $message [, array $context ] )
 
-### `public void Logger::warning ( string $message [, array $context ] )`
+public void Logger::warning ( string $message [, array $context ] )
 
-### `public void Logger::error ( string $message [, array $context ] )`
+public void Logger::error ( string $message [, array $context ] )
 
-### `public void Logger::critical ( string $message [, array $context ] )`
+public void Logger::critical ( string $message [, array $context ] )
 
-### `public void Logger::alert ( string $message [, array $context ] )`
+public void Logger::alert ( string $message [, array $context ] )
 
-### `public void Logger::emergency ( string $message [, array $context ] )`
+public void Logger::emergency ( string $message [, array $context ] )
+```
 
 
 ## Usage
