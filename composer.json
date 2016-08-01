@@ -1,0 +1,20 @@
+{
+    "name": "surrealcristian/logger-php",
+    "description": "Simple and fast file logger.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Cabrera",
+            "email": "surrealcristian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SurrealCristian\\": "src/"
+        }
+    }
+}
